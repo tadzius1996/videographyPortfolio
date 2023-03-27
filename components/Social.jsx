@@ -4,11 +4,11 @@ import { AnimatePresence, motion } from 'framer-motion';
 
 function Social() {
   const buttonClick = () => {
-    navigator.clipboard.writeText('milonciustadas@gmail.com')
+    navigator.clipboard.writeText('motioncraftmedia@protonmail.com')
     alert('Email Copied!')}
 
     const buttonClickk = () => {
-        navigator.clipboard.writeText('0773084665')
+        navigator.clipboard.writeText('+84773084665')
         alert('Phone Number Copied!')}
   return (
     <>

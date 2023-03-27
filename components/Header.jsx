@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 import Image from 'next/image';
-import logo from '../public/logo.png';
+import logo from '../public/finalLogoo.png';
 import { AiOutlineFacebook, AiOutlineInstagram, AiOutlineMail, AiOutlinePhone } from 'react-icons/ai';
 import { AnimatePresence, motion } from 'framer-motion';
 
@@ -35,7 +35,7 @@ function Header() {
                transition={{
                duration: 0.75,
                }}>
-              <Image src={logo} alt="logo" width={120} height={48} />
+              <Image src={logo} alt="logo" width={100} height={48} />
             </motion.p>
           </Link>
         </div>

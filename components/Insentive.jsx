@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import proof from '../public/proof.png'
+import proof from '../public/why.jpg'
 import motions from '../public/motions.png'
-import camera from '../public/camera.png'
+//import camera from '../public/camera.png'
 function Insentive() {
   return (
     <>
@@ -23,8 +23,8 @@ function Insentive() {
         </div>
     </div>
 
-    <div  className='  bg-gradient-to-r from-gray-700 via-gray-900 to-black h-auto md:h-screen '>
-        <div className=' p-8 rounded-2xl  w-11/12 h-5/6 m-auto pt-10 flex flex-col lg:flex-row gap-7   lg:mt-0'>
+    <div  className='  bg-gradient-to-r from-gray-700 via-gray-900 to-black h-auto md:h-screen flex '>
+        <div className=' p-8 rounded-2xl  w-11/12 h-5/6 m-auto pt-10 flex justify-between flex-col lg:flex-row lg:gap-44   lg:mt-0'>
         <div className='h-full w-full flex-1 mt-0 lg:mt-0' style={{ position: 'relative' }}>
               <Image src={motions} alt='picture' layout='fill' objectFit='cover' className='rounded-2xl w-full'/>
               <img src={proof.src} alt='picture' style={{ display: 'none' }}/>
@@ -38,22 +38,7 @@ function Insentive() {
             
         </div>
     </div>
-    <div id='incentive' className=' pt-7 bg-gradient-to-l from-gray-700 via-gray-900 to-black h-auto md:h-screen '>
-        <div className='p-8 rounded-2xl  w-11/12 h-5/6 m-auto pt-10 flex flex-col lg:flex-row'>
-            <div className='text-white flex-1 '>
-                <h1 className='text-5xl md:text-6xl tracking-widest lg:w-5/6 text-center lg:text-start'>Professional Quality</h1>
-                <p className=' text-lg mt-10 lg:mt-5 lg:w-4/6'>For individuals and families, professional quality video editing and videography services can be incredibly valuable for several reasons. Firstly, professional quality videos can help capture and preserve important life events such as weddings, graduations, or family reunions. </p>
-                <p className=' text-lg mt-10 lg:mt-5 lg:w-4/6'>These events are often once-in-a-lifetime experiences and having high-quality videos of these events can help individuals and families relive and cherish these memories for years to come. </p>
-                
-               
-            </div>
-            
-            <div className='h-full w-full flex-1 mt-0 lg:mt-0' style={{ position: 'relative' }}>
-              <Image src={camera} alt='picture' layout='fill' objectFit='cover' className='rounded-2xl w-full '/>
-              <img src={proof.src} alt='picture' style={{ display: 'none' }}/>
-            </div>
-        </div>
-    </div>
+    
     </>
   )
 }
