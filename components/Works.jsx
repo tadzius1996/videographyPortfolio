@@ -6,6 +6,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import kiss from '../public/kisss.png';
 import farm from '../public/FARMA.png';
+import owlBright from '../public/owlbright.png';
 import logoDesign from '../public/logoDesign.png';
 import chefbox from '../public/chefbox.png';
 import beautyLogo from '../public/BEAUTYLOGO.png';
@@ -41,18 +42,7 @@ function Works() {
       </div>
     </div>
   </div>
-  <div className='px-3 group'>
-    <div className='relative cursor-pointer'>
-      <Image
-        src={chefbox}
-        alt='logo'
-        className='w-80vw h-auto transition duration-500 ease-in-out group-hover:brightness-50'
-      />
-      <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-opacity-50 py-2 px-3 text-white transition duration-500 ease-in-out opacity-0 group-hover:opacity-100'>
-        <a href='https://www.youtube.com/watch?v=sPKh2TFx_t0' className='text-xl tracking-widest'>EXPLAINER ANIMATION</a>
-      </div>
-    </div>
-  </div>
+ 
   <div className='px-3 group'>
     <div className='relative cursor-pointer'>
       <Image
@@ -62,6 +52,32 @@ function Works() {
       />
       <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-opacity-50 py-2 px-3 text-white transition duration-500 ease-in-out opacity-0 group-hover:opacity-100'>
         <a href='https://www.youtube.com/watch?v=H6Iis4aYHdM' className='text-xl tracking-widest'>MOTION GRAPHICS</a>
+      </div>
+    </div>
+  </div>
+
+  <div className='px-3 group'>
+    <div className='relative cursor-pointer'>
+      <Image
+        src={owlBright}
+        alt='logo'
+        className='w-80vw h-auto transition duration-500 ease-in-out group-hover:brightness-50'
+      />
+      <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-opacity-50 py-2 px-3 text-white transition duration-500 ease-in-out opacity-0 group-hover:opacity-100'>
+        <a href='https://www.youtube.com/watch?v=2dVOl2_JkPQ&t=1s&ab_channel=MotionCraft' className='text-xl tracking-widest'>EXPLAINER ANIMATION</a>
+      </div>
+    </div>
+  </div>
+
+  <div className='px-3 group'>
+    <div className='relative cursor-pointer'>
+      <Image
+        src={chefbox}
+        alt='logo'
+        className='w-80vw h-auto transition duration-500 ease-in-out group-hover:brightness-50'
+      />
+      <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-opacity-50 py-2 px-3 text-white transition duration-500 ease-in-out opacity-0 group-hover:opacity-100'>
+        <a href='https://www.youtube.com/watch?v=sPKh2TFx_t0' className='text-xl tracking-widest'>EXPLAINER ANIMATION</a>
       </div>
     </div>
   </div>

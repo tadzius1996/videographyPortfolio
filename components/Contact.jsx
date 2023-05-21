@@ -1,6 +1,6 @@
 import React from 'react'
 import Social from './Social'
-import { AiOutlineFacebook, AiOutlineInstagram, AiOutlineMail, AiOutlinePhone } from 'react-icons/ai';
+import { AiOutlineFacebook, AiOutlineInstagram, AiOutlineMail, AiOutlinePhone, AiFillBehanceSquare } from 'react-icons/ai';
 
 function Contact() {
     const buttonClick = () => {
@@ -17,10 +17,10 @@ function Contact() {
             <h1 className='text-[#d6c9c9] text-2xl w-11/12 md:w-2/3 mt-10 m-auto font-thin'>Whether you need product videos, event coverage, or promotional content, I have the expertise and experience to create compelling and engaging video content that will help you stand out from the crowd.</h1>
         </div>
         <div className='flex flex-row gap-3 justify-center mt-5 pb-10'>
-          <a href='https://www.facebook.com/TadaVideos'><AiOutlineFacebook className=" w-10 py-2 h-auto text-white hover:scale-105 duration-75 ease-in-out cursor-pointer" /></a>
-          <AiOutlineInstagram className=" w-10 py-2 h-auto text-white hover:scale-105 duration-75 ease-in-out cursor-pointer" />
-          <AiOutlineMail className=" w-10 py-2 h-auto text-white hover:scale-105 duration-75 ease-in-out cursor-pointer" onClick={buttonClick}/>
-          <AiOutlinePhone className=" w-10 py-2 h-auto text-white hover:scale-105 duration-75 ease-in-out cursor-pointer" onClick={buttonClickk}/>
+        <a href="https://www.facebook.com/profile.php?id=100091396505758"><AiOutlineFacebook className="w-10 py-2 h-auto text-white hover:scale-105 duration-75 ease-in-out cursor-pointer" /></a>
+      <a href="https://www.instagram.com/motioncraftmedia/"><AiOutlineInstagram className="w-10 py-2 h-auto text-white hover:scale-105 duration-75 ease-in-out cursor-pointer" /></a>
+      <a href='https://www.behance.net/tadasmiloncius'><AiFillBehanceSquare className="w-10 py-2 h-auto text-white hover:scale-105 duration-75 ease-in-out cursor-pointer" /></a>  
+          
         </div>
     </div>
   )

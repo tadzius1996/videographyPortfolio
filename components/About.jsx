@@ -23,13 +23,8 @@ const About = () => {
             <div className='border-r-2 text-amber-500'/>
             <div className='text-center m-auto w-full md:w-auto lg:m-0 lg:text-left'>
                 <h1 className='text-4xl md:text-6xl lg:text-6xl tracking-widest'>Video Producer</h1>
-                <p className='w-72  md:w-11/12 m-auto lg:mx-0 lg:w-96 mt-5 text-md text-left text-lg md:text-xl'>I specialize in capturing life's special moments, from weddings to corporate events, and everything in between.
-
-I believe that every video should tell a story, and my goal is to bring your vision to life through creative and compelling visuals. I use the latest technology and techniques to deliver high-quality, cinematic videos that will leave a lasting impression.
-
-Whether you're looking to create a promotional video for your business, capture your wedding day, or document a special event, I'm here to help. I pride myself on my professionalism, attention to detail, and dedication to exceeding my clients' expectations.
-
-Thank you for considering me as your videographer. I look forward to the opportunity to work with you and bring your vision to life!</p>
+                <p className='w-72  md:w-11/12 m-auto lg:mx-0 lg:w-96 mt-5 text-md text-left text-lg md:text-xl'>
+Welcome to my world of captivating motion graphics and branding. As a Video Producer, I turn ordinary moments into extraordinary visual experiences. With meticulous attention to detail and a passion for creativity, I bring your vision to life through high-quality videos that tell compelling stories. Using cutting-edge technology and innovative techniques, I create captivating visuals that leave a lasting impression. Whether you need a standout promotional video or elegant event documentation, I'm here to exceed your expectations with exceptional professionalism. Join me on this incredible journey where imagination meets innovation, and let's bring your ideas to life through the art of motion and storytelling. Together, we'll create something extraordinary.</p>
                 <div className=' text-start justify-center w-auto h-auto border-dashed border-2 mt-5 flex  flex-wrap hover:bg-gray-200 duration-150 cursor-pointer'>
 
                   <ul className='p-2'>

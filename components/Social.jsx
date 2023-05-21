@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiOutlineFacebook, AiOutlineInstagram, AiOutlineMail, AiOutlinePhone } from 'react-icons/ai';
+import { AiOutlineFacebook, AiOutlineInstagram, AiOutlineMail, AiOutlinePhone, AiFillBehanceSquare } from 'react-icons/ai';
 import { AnimatePresence, motion } from 'framer-motion';
 
 function Social() {
@@ -17,10 +17,9 @@ function Social() {
     transition={{
     duration: 0.75,
     }}>
-      <AiOutlineFacebook className="w-10 py-2 h-auto text-white hover:scale-105 duration-75 ease-in-out cursor-pointer" />
-      <AiOutlineInstagram className="w-10 py-2 h-auto text-white hover:scale-105 duration-75 ease-in-out cursor-pointer" />
-      <AiOutlineMail className="w-10 py-2 h-auto text-white hover:scale-105 duration-75 ease-in-out cursor-pointer" onClick={buttonClick}/>
-      <AiOutlinePhone className='w-10 py-2 h-auto text-white hover:scale-105 duration-75 ease-in-out cursor-pointer' onClick={buttonClick}/>
+      <a href="https://www.facebook.com/profile.php?id=100091396505758"><AiOutlineFacebook className="w-10 py-2 h-auto text-white hover:scale-105 duration-75 ease-in-out cursor-pointer" /></a>
+      <a href="https://www.instagram.com/motioncraftmedia/"><AiOutlineInstagram className="w-10 py-2 h-auto text-white hover:scale-105 duration-75 ease-in-out cursor-pointer" /></a>
+      <a href='https://www.behance.net/tadasmiloncius'><AiFillBehanceSquare className="w-10 py-2 h-auto text-white hover:scale-105 duration-75 ease-in-out cursor-pointer" /></a>  
     </motion.div>
     </>
   )
