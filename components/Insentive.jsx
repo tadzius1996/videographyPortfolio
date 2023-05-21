@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import proof from '../public/why.jpg'
-import motions from '../public/motions.png'
+import motions from '../public/creative.png'
 //import camera from '../public/camera.png'
 function Insentive() {
   return (
