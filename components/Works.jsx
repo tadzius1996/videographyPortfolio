@@ -8,6 +8,7 @@ import kiss from '../public/kisss.png';
 import farm from '../public/FARMA.png';
 import owlBright from '../public/owlbright.png';
 import logoDesign from '../public/logoDesign.png';
+import motionGraphics from '../public/motionGraphics.jpg';
 import chefbox from '../public/chefbox.png';
 import beautyLogo from '../public/BEAUTYLOGO.png';
 import graphics from '../public/advert.png';
@@ -33,15 +34,19 @@ function Works() {
         <div className='px-3 group'>
     <div className='relative cursor-pointer'>
       <Image
-        src={logoDesign}
+        src={motionGraphics}
         alt='logo'
         className='w-80vw h-auto transition duration-500 ease-in-out group-hover:brightness-50'
       />
       <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-opacity-50 py-2 px-3 text-white transition duration-500 ease-in-out opacity-0 group-hover:opacity-100'>
-        <a href='https://www.youtube.com/watch?v=AZmjGi94pfI' className='text-xl tracking-widest'>LOGO ANIMATION</a>
+        <a href='https://www.youtube.com/watch?v=iqZt6V1totg&ab_channel=TadasMiloncius' className='text-xl tracking-widest'>YOUTUBE</a>
       </div>
     </div>
   </div>
+
+  
+
+  
  
   <div className='px-3 group'>
     <div className='relative cursor-pointer'>
@@ -142,20 +147,20 @@ function Works() {
     </div>
   </div>
 
-  <div className='px-3 group cursor-pointer'>
-    <div className='relative'>
+ 
+  
+  <div className='px-3 group'>
+    <div className='relative cursor-pointer'>
       <Image
-        src={personal}
+        src={logoDesign}
         alt='logo'
         className='w-80vw h-auto transition duration-500 ease-in-out group-hover:brightness-50'
       />
-      <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-opacity-50 py-2 px-3 -500 ease-in-out opacity-0 duration-500 group-hover:opacity-100'>
-        <a href='https://www.youtube.com/watch?v=wpWoVpeEESQ&ab_channel=MotionCraft' className='text-xl tracking-widest text-white'>ONSITE SHOOTING</a>
+      <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-opacity-50 py-2 px-3 text-white transition duration-500 ease-in-out opacity-0 group-hover:opacity-100'>
+        <a href='https://www.youtube.com/watch?v=AZmjGi94pfI' className='text-xl tracking-widest'>LOGO ANIMATION</a>
       </div>
     </div>
   </div>
-  
-  
   
 </Slider>
   </div>
