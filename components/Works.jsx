@@ -44,22 +44,19 @@ function Works() {
     </div>
   </div>
 
-  
-
-  
- 
-  <div className='px-3 group'>
-    <div className='relative cursor-pointer'>
+  <div className='px-3 group cursor-pointer'>
+    <div className='relative'>
       <Image
-        src={farm}
+        src={personal}
         alt='logo'
         className='w-80vw h-auto transition duration-500 ease-in-out group-hover:brightness-50'
       />
-      <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-opacity-50 py-2 px-3 text-white transition duration-500 ease-in-out opacity-0 group-hover:opacity-100'>
-        <a href='https://www.youtube.com/watch?v=H6Iis4aYHdM' className='text-xl tracking-widest'>MOTION GRAPHICS</a>
+      <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-opacity-50 py-2 px-3 -500 ease-in-out opacity-0 duration-500 group-hover:opacity-100'>
+        <a href='https://www.facebook.com/TadaVideos/videos/318182335744248' className='text-xl tracking-widest text-white'>FOOTAGE COMPILATION</a>
       </div>
     </div>
   </div>
+
 
   <div className='px-3 group'>
     <div className='relative cursor-pointer'>
@@ -70,6 +67,19 @@ function Works() {
       />
       <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-opacity-50 py-2 px-3 text-white transition duration-500 ease-in-out opacity-0 group-hover:opacity-100'>
         <a href='https://www.youtube.com/watch?v=2dVOl2_JkPQ&t=1s&ab_channel=MotionCraft' className='text-xl tracking-widest'>EXPLAINER ANIMATION</a>
+      </div>
+    </div>
+  </div>
+
+  <div className='px-3 group'>
+    <div className='relative cursor-pointer'>
+      <Image
+        src={farm}
+        alt='logo'
+        className='w-80vw h-auto transition duration-500 ease-in-out group-hover:brightness-50'
+      />
+      <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-opacity-50 py-2 px-3 text-white transition duration-500 ease-in-out opacity-0 group-hover:opacity-100'>
+        <a href='https://www.youtube.com/watch?v=H6Iis4aYHdM' className='text-xl tracking-widest'>MOTION GRAPHICS</a>
       </div>
     </div>
   </div>
@@ -134,18 +144,7 @@ function Works() {
       </div>
     </div>
   </div>
-  <div className='px-3 group cursor-pointer'>
-    <div className='relative'>
-      <Image
-        src={personal}
-        alt='logo'
-        className='w-80vw h-auto transition duration-500 ease-in-out group-hover:brightness-50'
-      />
-      <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-opacity-50 py-2 px-3 -500 ease-in-out opacity-0 duration-500 group-hover:opacity-100'>
-        <a href='https://www.facebook.com/TadaVideos/videos/318182335744248' className='text-xl tracking-widest text-white'>ONSITE SHOOTING</a>
-      </div>
-    </div>
-  </div>
+
 
  
   
