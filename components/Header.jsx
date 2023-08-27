@@ -3,7 +3,7 @@ import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 import Image from 'next/image';
 import logo from '../public/finalLogoo.png';
-import { AiOutlineFacebook, AiOutlineInstagram, AiOutlineMail, AiOutlinePhone } from 'react-icons/ai';
+import { AiOutlineFacebook, AiOutlineInstagram, AiOutlineMail, AiOutlinePhone, AiOutlineYoutube } from 'react-icons/ai';
 import { AnimatePresence, motion } from 'framer-motion';
 
 function Header() {
@@ -22,24 +22,30 @@ function Header() {
   }
 
   return (
-    <motion.header className="bg-[#c2613d]" initial={{ opacity: 1 }}
+    <motion.header className="bg-[black]" initial={{ opacity: 1 }}
     animate={{ opacity: 1 }}
     transition={{
     duration: 0.75,
     }}>
-      <nav className="max-w-screen-xl mx-auto px-10 xl:px-0 flex items-center justify-between h-24 md:h-28">
-        <div className="flex items-center">
+
+<h1 className='absolute left-7 top-8 text-white text-lg font-thin underline invisible lg:visible'>milonciustadas@gmail.com</h1>
+
+      <div className="flex justify-center items-center text-center m-auto pt-3">
           <Link href="/">
-            <motion.p className="flex-shrink-0" initial={{ x: -25, opacity: 0 }}
+            <motion.div className="flex" initial={{ x: -25, opacity: 0 }}
                animate={{ x: 0, opacity: 1 }}
                transition={{
                duration: 0.75,
                }}>
-              <Image src={logo} alt="logo" width={100} height={48} />
-            </motion.p>
+              <h1 className='text-3xl font-bold font-white leading-loose mt-4 font-serif text-white'>TADAS <span className='text-lg '>Portfolio</span></h1>
+             
+            </motion.div>
           </Link>
         </div>
-        <motion.div className="hidden md:flex items-center gap-5" initial={{ x: 25, opacity: 0 }}
+
+      <nav className="max-w-screen-xl mx-auto px-10 xl:px-0 flex items-center justify-center h-24 md:h-10">
+        
+        <motion.div className="hidden md:flex items-center gap-20 " initial={{ x: 25, opacity: 0 }}
                animate={{ x: 0, opacity: 1 }}
                transition={{
                duration: 0.75,
@@ -48,13 +54,7 @@ function Header() {
             <p className={styles.listItem}>HOME</p>
           </Link>
           <Link href="#gallery" scroll={false}>
-            <p className={styles.listItem}>PORTFOLIO</p>
-          </Link>
-          <Link href="#incentive" scroll={false}>
-            <p className={styles.listItem}>INCENTIVE</p>
-          </Link>
-          <Link href="#about" scroll={false}>
-            <p className={styles.listItem}>ABOUT</p>
+            <p className={styles.listItem}>MY WORK</p>
           </Link>
           <Link href="#contact" scroll={false}>
             <p className={styles.listItem}>CONTACT</p>
@@ -65,9 +65,7 @@ function Header() {
             className="text-2xl text-black p-2 focus:outline-none"
             onClick={toggleMenu}
           >
-            <svg className='w-14 mr-3 h-auto text-gray-200' viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M3 12h18M3 6h18M3 18h18" />
-            </svg>
+            
           </button>
         </div>
       </nav>
@@ -84,12 +82,7 @@ function Header() {
             <Link href="#portfolio">
               <p className="text-xl text-white p-4">PORTFOLIO</p>
             </Link>
-            <Link href="#incentive" scroll={false}>
-            <p className="text-xl text-white p-4">INCENTIVE</p>
-          </Link>
-            <Link href="#about">
-              <p className="text-xl text-white p-4">ABOUT</p>
-            </Link>
+            
             <Link href="#contact">
               <p className="text-xl text-white p-4">CONTACT</p>
             </Link>
@@ -101,8 +94,8 @@ function Header() {
                }}>
               <AiOutlineFacebook className="w-10 py-2 h-auto text-white hover:scale-105 duration-75 ease-in-out cursor-pointer" />
               <AiOutlineInstagram className="w-10 py-2 h-auto text-white hover:scale-105 duration-75 ease-in-out cursor-pointer" />
-              <AiOutlineMail className="w-10 py-2 h-auto text-white hover:scale-105 duration-75 ease-in-out cursor-pointer" onClick={buttonClick}/>
-              <AiOutlinePhone className='w-10 py-2 h-auto text-white hover:scale-105 duration-75 ease-in-out cursor-pointer' onClick={buttonClick}/>
+              <a href='https://www.youtube.com/channel/UCwFCDM9u4RDDwV28-y7EVaA'><AiOutlineYoutube className="w-10 py-2 h-auto text-white hover:scale-105 duration-75 ease-in-out cursor-pointer" /></a> 
+              
           </motion.div>
         </div>
       )}
