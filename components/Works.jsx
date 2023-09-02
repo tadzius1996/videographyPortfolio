@@ -14,6 +14,7 @@ import beautyLogo from '../public/BEAUTYLOGO.png';
 import graphics from '../public/advert.png';
 import beauty from '../public/beauty.png';
 import personal from '../public/thumbnail.png';
+import britain from '../public/britain.png';
 
 function Works() {
   const settings = {
@@ -47,12 +48,12 @@ function Works() {
   <div className='px-3 group cursor-pointer'>
     <div className='relative'>
       <Image
-        src={personal}
+        src={britain}
         alt='logo'
         className='w-80vw h-auto transition duration-500 ease-in-out group-hover:brightness-50'
       />
       <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-opacity-50 py-2 px-3 -500 ease-in-out opacity-0 duration-500 group-hover:opacity-100'>
-        <a href='https://www.facebook.com/TadaVideos/videos/318182335744248' className='text-xl tracking-widest text-white'>FOOTAGE COMPILATION</a>
+        <a href='https://www.youtube.com/watch?v=rvlAmhMlRik&ab_channel=TadasMiloncius' className='text-xl tracking-widest text-white'>YOUTUBE</a>
       </div>
     </div>
   </div>
@@ -67,6 +68,19 @@ function Works() {
       />
       <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-opacity-50 py-2 px-3 text-white transition duration-500 ease-in-out opacity-0 group-hover:opacity-100'>
         <a href='https://www.youtube.com/watch?v=2dVOl2_JkPQ&t=1s&ab_channel=MotionCraft' className='text-xl tracking-widest'>EXPLAINER ANIMATION</a>
+      </div>
+    </div>
+  </div>
+
+  <div className='px-3 group cursor-pointer'>
+    <div className='relative'>
+      <Image
+        src={personal}
+        alt='logo'
+        className='w-80vw h-auto transition duration-500 ease-in-out group-hover:brightness-50'
+      />
+      <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-opacity-50 py-2 px-3 -500 ease-in-out opacity-0 duration-500 group-hover:opacity-100'>
+        <a href='https://www.facebook.com/TadaVideos/videos/318182335744248' className='text-xl tracking-widest text-white'>FOOTAGE COMPILATION</a>
       </div>
     </div>
   </div>
