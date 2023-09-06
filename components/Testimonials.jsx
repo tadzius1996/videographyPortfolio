@@ -4,9 +4,9 @@ import Image from 'next/image';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import capture1 from '../public/Capture1.png';
-import capture2 from '../public/Capture2.png';
-import capture3 from '../public/Capture3.png';
+import capture1 from '../public/captureone.png';
+import capture2 from '../public/capturetwo.png';
+import capture3 from '../public/capturethree.png';
 
 function Testimonials() {
   const testimonials = [
