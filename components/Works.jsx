@@ -15,6 +15,9 @@ import graphics from '../public/advert.png';
 import beauty from '../public/beauty.png';
 import personal from '../public/thumbnail.png';
 import britain from '../public/britain.png';
+import turkey from '../public/turkey.png';
+import turkeytwo from '../public/turkeytwo.png';
+import catba from '../public/catba.png';
 
 function Works() {
   const settings = {
@@ -30,8 +33,10 @@ function Works() {
       <div className='bg-orange-600 w-[2px] h-10 absolute bottom-[-1rem] left-1/2' />
       <div className='text-center flex flex-col gap-2 pt-14'>
         <BsCamera2 className='w-14 h-auto m-auto' />
-        <h1 className='text-center text-5xl tracking-widest'>PORTFOLIO</h1>
+        <h1 className='text-center text-5xl tracking-widest'>ANIMATION</h1>
         <Slider {...settings} className='mt-5'>
+
+          
         <div className='px-3 group'>
     <div className='relative cursor-pointer'>
       <Image
@@ -72,18 +77,7 @@ function Works() {
     </div>
   </div>
 
-  <div className='px-3 group cursor-pointer'>
-    <div className='relative'>
-      <Image
-        src={personal}
-        alt='logo'
-        className='w-80vw h-auto transition duration-500 ease-in-out group-hover:brightness-50'
-      />
-      <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-opacity-50 py-2 px-3 -500 ease-in-out opacity-0 duration-500 group-hover:opacity-100'>
-        <a href='https://www.facebook.com/TadaVideos/videos/318182335744248' className='text-xl tracking-widest text-white'>FOOTAGE COMPILATION</a>
-      </div>
-    </div>
-  </div>
+  
 
   <div className='px-3 group'>
     <div className='relative cursor-pointer'>
@@ -122,18 +116,7 @@ function Works() {
       </div>
     </div>
   </div>
-  <div className='px-3 group'>
-    <div className='relative cursor-pointer'>
-      <Image
-        src={kiss}
-        alt='logo'
-        className='w-80vw h-auto transition duration-500 ease-in-out group-hover:brightness-50'
-      />
-      <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-opacity-50 py-2 px-3 text-white transition duration-500 ease-in-out opacity-0 group-hover:opacity-100'>
-        <a href='https://www.facebook.com/phukienthoitranga/videos/2123152517747184' className='text-xl tracking-widest'>BRAND RECOGNITION</a>
-      </div>
-    </div>
-  </div>
+ 
   <div className='px-3 group cursor-pointer'>
     <div className='relative'>
       <Image
@@ -146,22 +129,8 @@ function Works() {
       </div>
     </div>
   </div>
-  <div className='px-3 group cursor-pointer'>
-    <div className='relative'>
-      <Image
-        src={beauty}
-        alt='logo'
-        className='w-80vw h-auto transition duration-500 ease-in-out group-hover:brightness-50'
-      />
-      <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-opacity-50 py-2 px-3 text-white transition duration-500 ease-in-out opacity-0 group-hover:opacity-100'>
-        <a href='https://www.facebook.com/tadas.miloncius/videos/669442111595900' className='text-xl tracking-widest'>VIDEO EDITING</a>
-      </div>
-    </div>
-  </div>
-
-
- 
   
+
   <div className='px-3 group'>
     <div className='relative cursor-pointer'>
       <Image
@@ -176,6 +145,60 @@ function Works() {
   </div>
   
 </Slider>
+  </div>
+
+
+  <div className='text-center flex flex-col gap-2 pt-14'>
+        <BsCamera2 className='w-14 h-auto m-auto' />
+        <h1 className='text-center text-5xl tracking-widest'>CUTS</h1>
+        <Slider {...settings} className='mt-5'>
+        
+
+        <div className='px-3 group cursor-pointer'>
+    <div className='relative'>
+      <Image
+        src={turkey}
+        alt='logo'
+        className='w-80vw h-auto transition duration-500 ease-in-out group-hover:brightness-50'
+      />
+      <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-opacity-50 py-2 px-3 -500 ease-in-out opacity-0 duration-500 group-hover:opacity-100'>
+        <a href='https://www.youtube.com/watch?v=1o5aLVwl1dY&ab_channel=TadasMiloncius' className='text-xl tracking-widest text-white'>YOUTUBE</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div className='px-3 group cursor-pointer'>
+    <div className='relative'>
+      <Image
+        src={catba}
+        alt='logo'
+        className='w-80vw h-auto transition duration-500 ease-in-out group-hover:brightness-50'
+      />
+      <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-opacity-50 py-2 px-3 -500 ease-in-out opacity-0 duration-500 group-hover:opacity-100'>
+        <a href='https://www.youtube.com/watch?v=wpWoVpeEESQ&t=40s&ab_channel=TadasMiloncius' className='text-xl tracking-widest text-white'>YOUTUBE</a>
+      </div>
+    </div>
+  </div>
+
+  <div className='px-3 group'>
+    <div className='relative cursor-pointer'>
+      <Image
+        src={turkeytwo}
+        alt='logo'
+        className='w-80vw h-auto transition duration-500 ease-in-out group-hover:brightness-50'
+      />
+      <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-opacity-50 py-2 px-3 text-white transition duration-500 ease-in-out opacity-0 group-hover:opacity-100'>
+        <a href='https://www.youtube.com/watch?v=1aAPMs6QUVo&ab_channel=TadasMiloncius' className='text-xl tracking-widest'>YOUTUBE</a>
+      </div>
+    </div>
+  </div>
+  
+  
+</Slider>
+
+
+
   </div>
 
   <svg
