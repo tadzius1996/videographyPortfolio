@@ -18,7 +18,7 @@ function Social() {
     duration: 0.75,
     }}className='invisible md:visible'>
       <a href="https://www.facebook.com/TadaVideos"><AiOutlineFacebook className="w-10 py-2 h-auto text-white hover:scale-105 duration-75 ease-in-out cursor-pointer" /></a>
-      <a href="https://www.instagram.com/motioncraftmedia/"><AiOutlineInstagram className="w-10 py-2 h-auto text-white hover:scale-105 duration-75 ease-in-out cursor-pointer" /></a>
+      <a href="https://www.instagram.com/tadascinema/"><AiOutlineInstagram className="w-10 py-2 h-auto text-white hover:scale-105 duration-75 ease-in-out cursor-pointer" /></a>
       <a href='https://www.youtube.com/channel/UCwFCDM9u4RDDwV28-y7EVaA'><AiOutlineYoutube className="w-10 py-2 h-auto text-white hover:scale-105 duration-75 ease-in-out cursor-pointer" /></a>  
     </motion.div>
     </>

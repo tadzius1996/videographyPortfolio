@@ -1,5 +1,6 @@
 import React from 'react';
 import { BsCamera2 } from 'react-icons/bs';
+import { MdComputer } from 'react-icons/md';
 import Image from 'next/image';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -32,7 +33,7 @@ function Works() {
     <div className='bg-[#f5f5f5] h-auto' id='gallery'>
       <div className='bg-orange-600 w-[2px] h-10 absolute bottom-[-1rem] left-1/2' />
       <div className='text-center flex flex-col gap-2 pt-14'>
-        <BsCamera2 className='w-14 h-auto m-auto' />
+        <MdComputer className='w-14 h-auto m-auto' />
         <h1 className='text-center text-5xl tracking-widest'>ANIMATION</h1>
         <Slider {...settings} className='mt-5'>
 
@@ -204,17 +205,7 @@ function Works() {
 
   
 
-  <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1440 320"
-        className='mt-[2rem]'
-      >
-        <path
-          fill="black"
-          fillOpacity="1"
-          d="M0,192L30,181.3C60,171,120,149,180,128C240,107,300,85,360,90.7C420,96,480,128,540,165.3C600,203,660,245,720,224C780,203,840,117,900,122.7C960,128,1020,224,1080,266.7C1140,309,1200,299,1260,261.3C1320,224,1380,160,1410,128L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
-        ></path>
-      </svg>
+ 
   
 </div>
 );

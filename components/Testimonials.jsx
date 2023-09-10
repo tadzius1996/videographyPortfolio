@@ -5,6 +5,8 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import review from '../public/review.png';
+import reviewtwo from '../public/reviewtwo.png';
+import reviewthree from '../public/reviewthree.png';
 
 
 function Testimonials() {
@@ -15,7 +17,18 @@ function Testimonials() {
       altText: 'Testimonial 1',
       content: 'This is the first testimonial.',
     },
-   
+    {
+      id: 2,
+      imageSrc: reviewtwo,
+      altText: 'Testimonial 2',
+      content: 'This is the second testimonial.',
+    },
+    {
+      id: 3,
+      imageSrc: reviewthree,
+      altText: 'Testimonial 3',
+      content: 'This is the third testimonial.',
+    },
   ];
 
   const settings = {
@@ -29,7 +42,7 @@ function Testimonials() {
   };
 
   return (
-    <div className='mt-20'>
+    <div className='mt-12'>
       <MdOutlineReviews className='w-14 h-auto m-auto' />
       <h1 className='text-center text-5xl tracking-widest'>REVIEWS</h1>
       <Slider {...settings} className='mt-10'>
