@@ -4,30 +4,18 @@ import Image from 'next/image';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import capture1 from '../public/captureone.png';
-import capture2 from '../public/capturetwo.png';
-import capture3 from '../public/capturethree.png';
+import review from '../public/review.png';
+
 
 function Testimonials() {
   const testimonials = [
     {
       id: 1,
-      imageSrc: capture1,
+      imageSrc: review,
       altText: 'Testimonial 1',
       content: 'This is the first testimonial.',
     },
-    {
-      id: 2,
-      imageSrc: capture2,
-      altText: 'Testimonial 2',
-      content: 'This is the second testimonial.',
-    },
-    {
-      id: 3,
-      imageSrc: capture3,
-      altText: 'Testimonial 3',
-      content: 'This is the third testimonial.',
-    },
+   
   ];
 
   const settings = {
